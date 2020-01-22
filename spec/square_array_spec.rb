@@ -2,6 +2,7 @@ describe '#square_array' do
 
   it 'does not call on collect/map or inject' do
     numbers = [1,2,3]
+    numbers.each do |number|
     expect(numbers).to_not receive(:collect)
     expect(numbers).to_not receive(:map)
     expect(numbers).to_not receive(:inject)
