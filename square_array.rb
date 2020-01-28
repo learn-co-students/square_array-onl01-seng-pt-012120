@@ -1,3 +1,10 @@
 def square_array(array)
-  # your code here
+  count = 0
+  while count <= 5
+  puts array^2=array
+  += 1
+ 
+
+  
+  
 end
