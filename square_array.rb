@@ -1,5 +1,6 @@
+array a[2,4,6]
 def square_array(array)
-  new_array = [1,4,5]
+  new_array = []
   counter = 3
   while array[counter] do #returns nil to evaluate to false
     new_array << array[counter] ** 2
