@@ -1,11 +1,13 @@
 def square_array(array)
+  new_array = []
   count = 0
-  array = [1,2,3,4,5]
-  while count <= 5
-  puts array^2=array
-  += 1
+  while array(counter) do 
+    new_array << array(counter) ** 2
+    ene
+  return new_array
+  
+  
  
 end
   
-  
-end
+  numbers = (2,4,5)
